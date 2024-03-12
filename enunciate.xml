@@ -1,0 +1,35 @@
+<enunciate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://enunciate.webcohesion.com/schemas/enunciate-2.15.0.xsd">
+
+  <title>Fork Join Pool Interrupt</title>
+  <description package="com.noel.forkjoinpoolinterrupt"/>
+  <copyright>Personal Project</copyright>
+
+  <!--<api-classes>
+    <include pattern="com.webcohesion.enunciate.sample.rs.*"/>
+    <include pattern="com.webcohesion.enunciate.sample.model.*"/>
+  </api-classes>
+
+  <namespaces>
+    <namespace id="model" uri="http://webcohesion.com/enunciate/samples/model/"/>
+  </namespaces>
+
+  <modules>
+    <docs>
+      <download file="../LICENSE" name="Apache II" description="The license governing this API" showLink="true"/>
+    </docs>
+    <java-xml-client>
+      <package-conversions>
+        <convert from="com.webcohesion.enunciate.sample" to="com.webcohesion.enunciate.sample.client"/>
+      </package-conversions>
+    </java-xml-client>
+    <swagger basePath="/${project.artifactId}"/>
+  </modules>-->
+  <modules>
+    <!-- Add modules as needed -->
+    <docs url="/docs" />
+    <spring label="API">
+      <services include="com.noel.forkjoinpoolinterrupt.*" />
+    </spring>
+  </modules>
+
+</enunciate>
